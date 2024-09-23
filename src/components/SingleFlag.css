@@ -1,0 +1,62 @@
+.back-button{
+    text-decoration: none;
+    padding: 0.8rem 1.2rem;
+    font-size: large;
+    margin: 30px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.single-flag-container{
+    margin: 10px;
+}
+
+.single-flag-dark button{
+    background-color: #2b3945;
+    color: white; 
+    
+}
+
+.single-flag-light button{
+    background-color: rgb(244, 242, 239);
+    color: black;
+}
+
+.single-flag{
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+
+.single-flag-image img{
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 800px){
+    .single-flag{
+        flex-wrap: wrap;
+    }
+    .single-flag img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.border-countries{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.border-countries button{
+    border: none;
+    padding: 0.8rem 1.2rem;
+    margin: 0.2rem;
+    align-items: center;
+}
